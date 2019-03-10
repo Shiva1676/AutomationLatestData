@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 /**
  * @author Lenovo
- *
+ *This script is designed through sikuli class
  */
 public class SikuliDemo2 {
 
