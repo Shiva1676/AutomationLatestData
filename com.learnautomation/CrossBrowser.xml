@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test thread-count="5" name="ChromeBrowserTesting">
+		<parameter name="browser" value="Chrome"></parameter>
+		<parameter name="url" value="https://www.google.com/"></parameter>
+
+		<classes>
+			<class name="testNGFrameworkAdvanceTopics.ParametersDemo4" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test thread-count="5" name="FireFoxBrowserTesting">
+		<parameter name="browser" value="FireFox"></parameter>
+		<parameter name="url" value="https://www.flipkart.com/"></parameter>
+
+		<classes>
+			<class name="testNGFrameworkAdvanceTopics.ParametersDemo4" />
+		</classes>
+	</test> <!-- Test -->
+
+	
+
+</suite> <!-- Suite -->

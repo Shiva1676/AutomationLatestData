@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[The script is running on following browser:Chrome]]>
+    </line>
+    <line>
+      <![CDATA[The script is running on following browser is >>>>Firefox]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24259" started-at="2019-02-25T12:53:10Z" finished-at="2019-02-25T12:53:34Z">
+    <groups>
+    </groups>
+    <test name="ChoromeTest" duration-ms="10675" started-at="2019-02-25T12:53:10Z" finished-at="2019-02-25T12:53:21Z">
+      <class name="testNGFrameworkAdvanceTopics.ParallelExecution">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testNGFrameworkAdvanceTopics.ParallelExecution@1efbd816]" name="test" duration-ms="10638" started-at="2019-02-25T18:23:10Z" finished-at="2019-02-25T18:23:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The script is running on following browser:Chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testNGFrameworkAdvanceTopics.ParallelExecution -->
+    </test> <!-- ChoromeTest -->
+    <test name="FireTest" duration-ms="13528" started-at="2019-02-25T12:53:21Z" finished-at="2019-02-25T12:53:34Z">
+      <class name="testNGFrameworkAdvanceTopics.ParallelExecution">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testNGFrameworkAdvanceTopics.ParallelExecution@5034c75a]" name="test" duration-ms="13524" started-at="2019-02-25T18:23:21Z" finished-at="2019-02-25T18:23:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://twitter.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The script is running on following browser is >>>>Firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testNGFrameworkAdvanceTopics.ParallelExecution -->
+    </test> <!-- FireTest -->
+  </suite> <!-- Suite -->
+</testng-results>

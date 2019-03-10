@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/Selenium_Setup/selenium-server-standalone-2.53.1.jar" sourcepath="C:/Users/Lenovo/Downloads/Selenium_Setup/selenium-java-2.53.1/selenium-2.53.1/selenium-java-2.53.1-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/Selenium_Setup/Sikuli/sikulix.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/Selenium_Setup/Sikuli/sikulixapi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/Selenium_Setup/Sikuli/sikulixjython.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/Selenium_Setup/Sikuli/sikulixlibswin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/Selenium_Setup/Sikuli/sikulixsetup-1.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

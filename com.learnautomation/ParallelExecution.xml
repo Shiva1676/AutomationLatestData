@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="methods">
+  
+  <test thread-count="2" name="ChoromeTest" parallel="methods">
+  
+  <parameter name="browser" value="Chrome"></parameter>
+  <parameter name="url" value="https://www.google.com/"></parameter>
+  
+    <classes>
+      <class name="testNGFrameworkAdvanceTopics.ParallelExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="2" name="FireTest" parallel="methods">
+  
+  <parameter name="browser" value="Firefox"></parameter>
+  <parameter name="url" value="https://twitter.com/"></parameter>
+   
+    <classes>
+      <class name="testNGFrameworkAdvanceTopics.ParallelExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

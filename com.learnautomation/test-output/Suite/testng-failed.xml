@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="FireFox"/>
+  <parameter name="url" value="https://www.flipkart.com/"/>
+  <test name="ChromeBrowserTesting(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://www.google.com/"/>
+    <classes>
+      <class name="testNGFrameworkAdvanceTopics.ParametersDemo4">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNGFrameworkAdvanceTopics.ParametersDemo4 -->
+    </classes>
+  </test> <!-- ChromeBrowserTesting(failed) -->
+  <test name="FireFoxBrowserTesting(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <parameter name="url" value="https://www.flipkart.com/"/>
+    <classes>
+      <class name="testNGFrameworkAdvanceTopics.ParametersDemo4">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNGFrameworkAdvanceTopics.ParametersDemo4 -->
+    </classes>
+  </test> <!-- FireFoxBrowserTesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->
