@@ -15,6 +15,7 @@ import org.testng.annotations.Test;
 /**
  * @author Lenovo
  *This script is for all about how to use Sikuli class features
+ *Created By:  Ganesh
  */
 public class SikuliDemo2 {
 
